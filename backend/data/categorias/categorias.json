@@ -1,0 +1,674 @@
+[
+    {
+        "grupo": "TI",
+        "categoria": [
+            {
+                "chave": "acesso",
+                "nome": "Acesso e Identidade",
+                "subcategoria": [
+                    {
+                        "chave": "novo_usuario_ad",
+                        "nome": "Novo usuário AD"
+                    },
+                    {
+                        "chave": "reset_senha",
+                        "nome": "Reset de senha"
+                    },
+                    {
+                        "chave": "permissao_pasta",
+                        "nome": "Permissão de pasta"
+                    },
+                    {
+                        "chave": "acesso_vpn",
+                        "nome": "Acesso VPN"
+                    },
+                    {
+                        "chave": "mfa_2fa",
+                        "nome": "MFA / 2FA"
+                    },
+                    {
+                        "chave": "bloqueio_conta",
+                        "nome": "Bloqueio de conta"
+                    }
+                ]
+            },
+            {
+                "chave": "equipamento",
+                "nome": "Hardware e Equipamentos",
+                "subcategoria": [
+                    {
+                        "chave": "manutencao_pc",
+                        "nome": "Manutenção de PC"
+                    },
+                    {
+                        "chave": "troca_periferico",
+                        "nome": "Troca de periférico"
+                    },
+                    {
+                        "chave": "impressora",
+                        "nome": "Impressora"
+                    },
+                    {
+                        "chave": "monitor",
+                        "nome": "Monitor"
+                    },
+                    {
+                        "chave": "nobreak_energia",
+                        "nome": "No-break / Energia"
+                    },
+                    {
+                        "chave": "novo_equipamento",
+                        "nome": "Novo equipamento"
+                    }
+                ]
+            },
+            {
+                "chave": "rede",
+                "nome": "Rede e Conectividade",
+                "subcategoria": [
+                    {
+                        "chave": "sem_internet",
+                        "nome": "Sem internet"
+                    },
+                    {
+                        "chave": "wifi_instavel",
+                        "nome": "Wi-Fi instável"
+                    },
+                    {
+                        "chave": "vpn_fora",
+                        "nome": "VPN fora"
+                    },
+                    {
+                        "chave": "ponto_rede",
+                        "nome": "Ponto de rede"
+                    },
+                    {
+                        "chave": "switch_roteador",
+                        "nome": "Switch / Roteador"
+                    },
+                    {
+                        "chave": "proxy_firewall",
+                        "nome": "Proxy / Firewall"
+                    }
+                ]
+            },
+            {
+                "chave": "software",
+                "nome": "Software e Sistemas",
+                "subcategoria": [
+                    {
+                        "chave": "instalacao_software",
+                        "nome": "Instalação de software"
+                    },
+                    {
+                        "chave": "atualizacao",
+                        "nome": "Atualização"
+                    },
+                    {
+                        "chave": "licenca_expirada",
+                        "nome": "Licença expirada"
+                    },
+                    {
+                        "chave": "erro_sistema",
+                        "nome": "Erro em sistema"
+                    },
+                    {
+                        "chave": "antivirus",
+                        "nome": "Antivírus"
+                    },
+                    {
+                        "chave": "office_m365",
+                        "nome": "Office / M365"
+                    }
+                ]
+            },
+            {
+                "chave": "comunicacao",
+                "nome": "E-mail e Comunicação",
+                "subcategoria": [
+                    {
+                        "chave": "problema_email",
+                        "nome": "Problema de e-mail"
+                    },
+                    {
+                        "chave": "caixa_compartilhada",
+                        "nome": "Caixa compartilhada"
+                    },
+                    {
+                        "chave": "lista_distribuicao",
+                        "nome": "Lista de distribuição"
+                    },
+                    {
+                        "chave": "teams",
+                        "nome": "Teams"
+                    },
+                    {
+                        "chave": "onedrive_sharepoint",
+                        "nome": "OneDrive / SharePoint"
+                    },
+                    {
+                        "chave": "spam_phishing",
+                        "nome": "Spam / Phishing"
+                    }
+                ]
+            },
+            {
+                "chave": "servidores_infraestrutura",
+                "nome": "Servidores e Infraestrutura",
+                "subcategoria": [
+                    {
+                        "chave": "servidor_fora",
+                        "nome": "Servidor fora"
+                    },
+                    {
+                        "chave": "falha_backup",
+                        "nome": "Falha de backup"
+                    },
+                    {
+                        "chave": "banco_dados",
+                        "nome": "Banco de dados"
+                    },
+                    {
+                        "chave": "storage_san",
+                        "nome": "Storage / SAN"
+                    },
+                    {
+                        "chave": "virtualizacao",
+                        "nome": "Virtualização"
+                    },
+                    {
+                        "chave": "monitoramento",
+                        "nome": "Monitoramento"
+                    }
+                ]
+            },
+            {
+                "chave": "seguranca",
+                "nome": "Segurança da Informação",
+                "subcategoria": [
+                    {
+                        "chave": "virus_malware",
+                        "nome": "Vírus / Malware"
+                    },
+                    {
+                        "chave": "conta_comprometida",
+                        "nome": "Conta comprometida"
+                    },
+                    {
+                        "chave": "acesso_indevido",
+                        "nome": "Acesso indevido"
+                    },
+                    {
+                        "chave": "phishing_confirmado",
+                        "nome": "Phishing confirmado"
+                    },
+                    {
+                        "chave": "vazamento_dados",
+                        "nome": "Vazamento de dados"
+                    },
+                    {
+                        "chave": "bloqueio_dispositivo",
+                        "nome": "Bloqueio de dispositivo"
+                    }
+                ]
+            },
+            {
+                "chave": "solicitacao",
+                "nome": "Solicitações e Requisições",
+                "subcategoria": [
+                    {
+                        "chave": "novo_equipamento",
+                        "nome": "Novo equipamento"
+                    },
+                    {
+                        "chave": "novo_software",
+                        "nome": "Novo software"
+                    },
+                    {
+                        "chave": "upgrade_hardware",
+                        "nome": "Upgrade de hardware"
+                    },
+                    {
+                        "chave": "aquisicao_licenca",
+                        "nome": "Aquisição de licença"
+                    },
+                    {
+                        "chave": "melhoria_processo",
+                        "nome": "Melhoria de processo"
+                    },
+                    {
+                        "chave": "treinamento_ti",
+                        "nome": "Treinamento TI"
+                    }
+                ]
+            },
+            {
+                "chave": "dispositivos_moveis",
+                "nome": "Dispositivos Móveis",
+                "subcategoria": [
+                    {
+                        "chave": "configurar_email",
+                        "nome": "Configurar e-mail"
+                    },
+                    {
+                        "chave": "mdm_intune",
+                        "nome": "MDM / Intune"
+                    },
+                    {
+                        "chave": "apps_corporativos",
+                        "nome": "Apps corporativos"
+                    },
+                    {
+                        "chave": "whatsapp_business",
+                        "nome": "WhatsApp Business"
+                    },
+                    {
+                        "chave": "chip_operadora",
+                        "nome": "Chip / Operadora"
+                    },
+                    {
+                        "chave": "dispositivo_perdido",
+                        "nome": "Dispositivo perdido"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "grupo": "ERP",
+        "categoria": [
+            {
+                "chave": "operacao",
+                "nome": "Operação do Sistema",
+                "subcategoria": [
+                    {
+                        "chave": "erro_rotina",
+                        "nome": "Erro ao executar rotina"
+                    },
+                    {
+                        "chave": "sistema_lento",
+                        "nome": "Sistema lento / travado"
+                    },
+                    {
+                        "chave": "dados_incorretos",
+                        "nome": "Dados incorretos"
+                    },
+                    {
+                        "chave": "tela_nao_carrega",
+                        "nome": "Tela não carrega"
+                    }
+                ]
+            },
+            {
+                "chave": "processos",
+                "nome": "Processos e Configurações",
+                "subcategoria": [
+                    {
+                        "chave": "ajuste_parametro",
+                        "nome": "Ajuste de parâmetro"
+                    },
+                    {
+                        "chave": "config_modulo",
+                        "nome": "Configuração de módulo"
+                    },
+                    {
+                        "chave": "regra_negocio",
+                        "nome": "Regra de negócio"
+                    },
+                    {
+                        "chave": "tabelas_cadastros",
+                        "nome": "Tabelas e cadastros"
+                    }
+                ]
+            },
+            {
+                "chave": "acessos",
+                "nome": "Acessos e Usuários",
+                "subcategoria": [
+                    {
+                        "chave": "novo_usuario",
+                        "nome": "Novo usuário"
+                    },
+                    {
+                        "chave": "reset_senha",
+                        "nome": "Reset de senha"
+                    },
+                    {
+                        "chave": "perfil_permissao",
+                        "nome": "Perfil de permissão"
+                    },
+                    {
+                        "chave": "inativacao_usuario",
+                        "nome": "Inativação de usuário"
+                    }
+                ]
+            },
+            {
+                "chave": "relatorios",
+                "nome": "Relatórios e Documentos",
+                "subcategoria": [
+                    {
+                        "chave": "relatorio_incorreto",
+                        "nome": "Relatório incorreto"
+                    },
+                    {
+                        "chave": "documento_fiscal",
+                        "nome": "Documento fiscal"
+                    },
+                    {
+                        "chave": "exportacao_dados",
+                        "nome": "Exportação de dados"
+                    },
+                    {
+                        "chave": "layout_impressao",
+                        "nome": "Layout de impressão"
+                    }
+                ]
+            },
+            {
+                "chave": "integracoes",
+                "nome": "Integrações",
+                "subcategoria": [
+                    {
+                        "chave": "integ_sefaz",
+                        "nome": "Integração fiscal (SEFAZ)"
+                    },
+                    {
+                        "chave": "integ_bancaria",
+                        "nome": "Integração bancária"
+                    },
+                    {
+                        "chave": "api_webservice",
+                        "nome": "API / Webservice"
+                    },
+                    {
+                        "chave": "sync_dados",
+                        "nome": "Sincronização de dados"
+                    }
+                ]
+            },
+            {
+                "chave": "implantacao",
+                "nome": "Implantação e Melhoria",
+                "subcategoria": [
+                    {
+                        "chave": "treinamento",
+                        "nome": "Treinamento"
+                    },
+                    {
+                        "chave": "nova_funcionalidade",
+                        "nome": "Nova funcionalidade"
+                    },
+                    {
+                        "chave": "atualizacao_versao",
+                        "nome": "Atualização de versão"
+                    },
+                    {
+                        "chave": "consultoria",
+                        "nome": "Consultoria"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "grupo": "Gestão de Celulares",
+        "categoria": [
+            {
+                "chave": "solicitacao_aparelho",
+                "nome": "Solicitação de Aparelho",
+                "subcategoria": [
+                    {
+                        "chave": "novo_colaborador",
+                        "nome": "Novo colaborador"
+                    },
+                    {
+                        "chave": "upgrade_de_aparelho",
+                        "nome": "Upgrade de aparelho"
+                    },
+                    {
+                        "chave": "substituicao_defeito",
+                        "nome": "Substituição por defeito"
+                    },
+                    {
+                        "chave": "extraviado_roubado",
+                        "nome": "Aparelho extraviado / roubado"
+                    }
+                ]
+            },
+            {
+                "chave": "troca_de_aparelho",
+                "nome": "Troca de Aparelho",
+                "subcategoria": [
+                    {
+                        "chave": "defeito_tecnico",
+                        "nome": "Defeito técnico"
+                    },
+                    {
+                        "chave": "dano_fisico",
+                        "nome": "Dano físico (queda / tela)"
+                    },
+                    {
+                        "chave": "mal_funcionamento",
+                        "nome": "Mau funcionamento"
+                    },
+                    {
+                        "chave": "fim_vida_util",
+                        "nome": "Fim de vida útil"
+                    }
+                ]
+            },
+            {
+                "chave": "troca_de_chip",
+                "nome": "Troca de Chip (SIM)",
+                "subcategoria": [
+                    {
+                        "chave": "chip_danificado",
+                        "nome": "Chip danificado / não lido"
+                    },
+                    {
+                        "chave": "chip_perdido",
+                        "nome": "Chip perdido"
+                    },
+                    {
+                        "chave": "troca_operadora",
+                        "nome": "Troca de operadora"
+                    },
+                    {
+                        "chave": "migracao_esim",
+                        "nome": "Migração para eSIM"
+                    }
+                ]
+            },
+            {
+                "chave": "troca_de_linha",
+                "nome": "Troca de Linha / Número",
+                "subcategoria": [
+                    {
+                        "chave": "portabilidade_de_numero",
+                        "nome": "Portabilidade de número"
+                    },
+                    {
+                        "chave": "transferencia_colaboradores",
+                        "nome": "Transferência entre colaboradores"
+                    },
+                    {
+                        "chave": "cancelamento_de_linha",
+                        "nome": "Cancelamento de linha"
+                    },
+                    {
+                        "chave": "nova_linha_corporativa",
+                        "nome": "Nova linha corporativa"
+                    }
+                ]
+            },
+            {
+                "chave": "configuracao_suporte",
+                "nome": "Configuração e Suporte",
+                "subcategoria": [
+                    {
+                        "chave": "config_email_corporativo",
+                        "nome": "Configurar e-mail corporativo"
+                    },
+                    {
+                        "chave": "instalar_app_corporativo",
+                        "nome": "Instalar app corporativo"
+                    },
+                    {
+                        "chave": "cadastro_mdm_intune",
+                        "nome": "Cadastro no MDM / Intune"
+                    },
+                    {
+                        "chave": "desbloqueio_dispositivo",
+                        "nome": "Desbloqueio de dispositivo"
+                    },
+                    {
+                        "chave": "redefinicao_senha_pin",
+                        "nome": "Redefinição de senha / PIN"
+                    },
+                    {
+                        "chave": "problemas_conectividade",
+                        "nome": "Problemas de conectividade"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "grupo": "Manutenção Predial",
+        "categoria": [
+            {
+                "chave": "mobiliario",
+                "nome": "Mobiliário",
+                "subcategoria": [
+                    {
+                        "chave": "cadeira_defeito",
+                        "nome": "Cadeira com defeito"
+                    },
+                    {
+                        "chave": "mesa_danificada",
+                        "nome": "Mesa danificada"
+                    },
+                    {
+                        "chave": "armario_gaveta",
+                        "nome": "Armário / gaveta"
+                    },
+                    {
+                        "chave": "substituicao_movel",
+                        "nome": "Substituição de móvel"
+                    }
+                ]
+            },
+            {
+                "chave": "eletrica",
+                "nome": "Elétrica",
+                "subcategoria": [
+                    {
+                        "chave": "tomada_sem_energia",
+                        "nome": "Tomada sem energia"
+                    },
+                    {
+                        "chave": "lampada_luminaria",
+                        "nome": "Lâmpada / luminária"
+                    },
+                    {
+                        "chave": "disjuntor_disparado",
+                        "nome": "Disjuntor disparado"
+                    },
+                    {
+                        "chave": "chuveiro_ar_condicionado",
+                        "nome": "Chuveiro / ar-condicionado"
+                    }
+                ]
+            },
+            {
+                "chave": "portas_fechaduras",
+                "nome": "Portas e Fechaduras",
+                "subcategoria": [
+                    {
+                        "chave": "fechadura_defeito",
+                        "nome": "Fechadura com defeito"
+                    },
+                    {
+                        "chave": "macaneta_quebrada",
+                        "nome": "Maçaneta quebrada"
+                    },
+                    {
+                        "chave": "porta_emperrada",
+                        "nome": "Porta emperrada"
+                    },
+                    {
+                        "chave": "controle_acesso_cracha",
+                        "nome": "Controle de acesso / crachá"
+                    }
+                ]
+            },
+            {
+                "chave": "hidraulica",
+                "nome": "Hidráulica",
+                "subcategoria": [
+                    {
+                        "chave": "vazamento",
+                        "nome": "Vazamento"
+                    },
+                    {
+                        "chave": "torneira_defeito",
+                        "nome": "Torneira com defeito"
+                    },
+                    {
+                        "chave": "vaso_sanitario",
+                        "nome": "Vaso sanitário"
+                    },
+                    {
+                        "chave": "entupimento",
+                        "nome": "Entupimento"
+                    }
+                ]
+            },
+            {
+                "chave": "climatizacao",
+                "nome": "Climatização",
+                "subcategoria": [
+                    {
+                        "chave": "ar_condicionado_parado",
+                        "nome": "Ar-condicionado sem funcionar"
+                    },
+                    {
+                        "chave": "ar_condicionado_vazamento",
+                        "nome": "Ar-condicionado com vazamento"
+                    },
+                    {
+                        "chave": "limpeza_filtro",
+                        "nome": "Limpeza / filtro"
+                    },
+                    {
+                        "chave": "ventilador_exaustor",
+                        "nome": "Ventilador / exaustor"
+                    }
+                ]
+            },
+            {
+                "chave": "estrutura_outros",
+                "nome": "Estrutura e Outros",
+                "subcategoria": [
+                    {
+                        "chave": "pintura_parede",
+                        "nome": "Pintura / parede"
+                    },
+                    {
+                        "chave": "piso_danificado",
+                        "nome": "Piso danificado"
+                    },
+                    {
+                        "chave": "vidro_janela",
+                        "nome": "Vidro / janela"
+                    },
+                    {
+                        "chave": "sinalizacao_placa",
+                        "nome": "Sinalização / placa"
+                    }
+                ]
+            }
+        ]
+    }
+]
